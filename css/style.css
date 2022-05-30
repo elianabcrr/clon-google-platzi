@@ -135,3 +135,29 @@ footer .footer-right{
     margin: 10px;
     color: #5f6368;
 }
+@media(max-width:767px){
+    main .main-buttons, 
+    footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    main .main-buttons div{
+        margin: 10px auto;
+    }
+    main .main-logo, 
+    main .main-input{
+        width: 100%;
+    }
+    main .main-input{
+        display: flex;
+        justify-content: center;
+    }
+    main .main-logo img,
+    main .main-input-container{
+        width: 80%;
+    }
+    footer{
+        bottom: 47px;
+    }
+}
