@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Page</title>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<style>
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    *{
+        font-family: arial,sans-serif;
+    }
+    .container{
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .navigation{
+        display: flex;
+        justify-content: end;
+        width: 100%;
+        align-items: center;
+    }
+    a.item-nav {
+        margin-right: 19px;
+        text-decoration: none;
+        color: black;
+    }
+    a.item-nav .profile-image{
+        height: 50px;
+        border-radius: 50%;
+    }
+    .body-container{
+        height: 70vh;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+        margin-right: 0;
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+    }
+    .logo-google{
+        width: 37%;
+    }
+    #search-google{
+        width: 50%;
+        height: 41px;
+        border-radius: 30px;
+        border: 1px solid black;
+        margin-top: 52px;
+    }
+    .buttos-options{
+        margin-top: 52px;
+    }
+    .buttos-options input {
+        padding: 15px;
+        background: #e7e7e7;
+        border: none;
+        border-radius: 6px;
+        color: black;
+        margin: 0 12px;
+    }
+    .footer{
+        background: #e7e7e7;
+        width: 100%;
+    }
+    .footer .country{
+        padding: 10px 20px;
+        border-bottom: 1px solid #b7b7b7;
+    }
+    .footer .country h5{
+        margin: 0;
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .footer .nav-footer{
+        padding: 10px 20px;
+        display: flex;
+        width: auto;
+        justify-content: space-between;
+    }
+    .footer .nav-footer .item-nav{
+        font-size: 14px;
+    }
+</style>
+<body>
+    <div class="container">
+        <nav class="navigation">
+            <a class="item-nav" href="">Gmail</a>
+            <a class="item-nav" href="">Image</a>
+            <a class="item-nav" href=""><i class="fas fa-th"></i></a>
+            <a class="item-nav" href=""><img class="profile-image" src="cat.jpg" alt="profile image"></a>
+    
+        </nav>
+        <div class="body-container">
+           
+            <img src="googlelogo_color.png" class="logo-google" alt="logo-google">
+            
+           
+            <input type="search" name="search-google" id="search-google">
+
+             <div class="buttos-options">
+                <input type="button" value="Google Search" id="google-search">
+                <input type="button" value="I'm Feeling Lucky" id="freeling-lucky">
+            </div>
+        </div>
+        <div class="footer">
+            <div class="country">
+                <h5>Venezuela</h5>
+            </div>
+            <div class="nav-footer">
+                <div class="col-left">
+                    <a class="item-nav" href="">About</a>
+                    <a class="item-nav" href="">Advertising</a>
+                    <a class="item-nav" href="">Bussines</a>
+                    <a class="item-nav" href="">How search works</a>
+                </div>
+                <div class="col-right">
+                    <a class="item-nav" href="">Privacy</a>
+                    <a class="item-nav" href="">Terms</a>
+                    <a class="item-nav" href="">Settings</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <section>
+
+    </section>
+    
+</body>
+</html>
